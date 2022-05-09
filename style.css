@@ -224,10 +224,10 @@
         background: linear-gradient(#3f87a6, #f69d3c);  
         
     }
-    .p1{
+    /* .p1{
         font-size: 20px;
         color: #f69d3c;
-    }  
+    }   */
 }
 @media (min-width: 721px){
     body {
