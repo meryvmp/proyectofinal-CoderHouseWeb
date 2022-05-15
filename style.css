@@ -220,18 +220,21 @@
 }
 
 @media (max-width: 720px){
-    body {
-        background: linear-gradient(#3f87a6, #f69d3c);  
-        
-    }
-    /* .p1{
+    .p1{
         font-size: 20px;
         color: #f69d3c;
-    }   */
+    }  
 }
 @media (min-width: 721px){
-    body {
-        background: linear-gradient(#f69d3c, #3f87a6);   
-    }
+    p1{
+        font-size: 30px;
+        color: #005bc4;
+    }  
+}
+.card{
+    font-size: 1rem;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
 }
  
