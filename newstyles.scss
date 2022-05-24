@@ -1,3 +1,6 @@
+@use 'main';
+@use 'expositores';
+
 @mixin letras {
     font-size: 1rem;
     font-style: normal;
@@ -98,52 +101,44 @@
         width: 30%;
         margin: 0 auto;
     }
-.formcenter1{
-    width: 100%;
-    margin: 0 auto;
-}
+    .formcenter1{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
 
-#div__ausp_redes {
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    align-items: center;
-}
-.auspiciante{
-    margin: 20px;
-}
-.whatsappbutton { 
-    background-color: #7ACC72; 
-    border: none; color: white; 
-    text-align: center; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    text-decoration: none; 
-    font-size: 16px; 
-    border-radius: 20px; 
-    padding: 10px 20px; 
-    margin-top: 10px !important; 
-    width: fit-content; 
-    margin: auto; 
-    cursor: pointer;
-}
-.whatsappbutton span{ 
-    vertical-align: text-bottom !important; 
-}
-.fa-whatsapp{ 
-    margin-right: 10px;
-}
-.expositores {
-    font-size: 1rem;
-    font-style: normal;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 0);
-    padding: 10px;
-}
-.video{
-    display: block;
-    margin: auto;
-}
+    #div__ausp_redes {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        align-items: center;
+    }
+    .auspiciante{
+        margin: 20px;
+    }
+    .whatsappbutton { 
+        background-color: #7ACC72; 
+        border: none; color: white; 
+        text-align: center; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        text-decoration: none; 
+        font-size: 16px; 
+        border-radius: 20px; 
+        padding: 10px 20px; 
+        margin-top: 10px !important; 
+        width: fit-content; 
+        margin: auto; 
+        cursor: pointer;
+    }
+    .whatsappbutton span{ 
+        vertical-align: text-bottom !important; 
+    }
+    .fa-whatsapp{ 
+        margin-right: 10px;
+    }
+    
+
 .grid {
     display: grid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

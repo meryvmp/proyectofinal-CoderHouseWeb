@@ -1,3 +1,5 @@
+@use 'main';
+@use 'expositores';
 .nav {
   font-size: 18px;
   color: white;
@@ -143,19 +145,6 @@
 
 .fa-whatsapp {
   margin-right: 10px;
-}
-
-.expositores {
-  font-size: 1rem;
-  font-style: normal;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
-  padding: 10px;
-}
-
-.video {
-  display: block;
-  margin: auto;
 }
 
 .grid {
