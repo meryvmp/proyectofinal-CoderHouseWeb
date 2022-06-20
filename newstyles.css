@@ -1,12 +1,5 @@
 @use 'main';
 @use 'expositores';
-.nav {
-  font-size: 18px;
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-}
-
 .p1 {
   padding: 2em 2em 2em 2em;
   color: white;
