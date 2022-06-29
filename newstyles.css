@@ -144,12 +144,12 @@
   display: grid;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   justify-items: stretch;
   justify-content: center;
   grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 100px 100px;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
@@ -221,21 +221,59 @@
 @media (max-width: 720px) {
   .p1 {
     font-size: 20px;
-    color: #f69d3c;
+    color: #ffffff;
   }
 }
 
 @media (min-width: 721px) {
   p1 {
     font-size: 30px;
-    color: #005bc4;
+    color: #ffffff;
   }
 }
 
 .card {
+  width: 360px;
+  display: block;
+  margin: auto;
   font-size: 1rem;
   font-style: normal;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
+}
+
+#flyer {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 640px;
+  width: 640px;
+}
+
+#auspiciantes {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 264px;
+  width: 500px;
+}
+
+#inscripciones {
+  display: block;
+  margin: auto;
+  max-width: 900px;
+}
+
+.header {
+  color: #36A0FF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.bigicon {
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #36A0FF;
 }
 /*# sourceMappingURL=newstyles.css.map */
